@@ -23,6 +23,9 @@ dataset.csv – Contains labeled customer service queries.
 
 README.md – Project overview and instructions (this file).
 
+📊 Dataset
+
+The dataset consists of 8175 customer support queries labeled with specific intent categories such as Track_Order, Cancel_Subscription, Reset_Password, Speak_to_Agent, and more. Each row contains a natural language query and its corresponding intent label.Unnecessary cloumns are further dropped. The data is used in a supervised learning setup to fine-tune the BERT model for intent classification. It reflects real-world variations in phrasing, spelling, and grammar, helping the model generalize better to actual user messages.
 
 🚀 What It Does
 
